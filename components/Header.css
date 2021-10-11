@@ -1,0 +1,136 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.Header-Container{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    
+}
+
+.Logo{
+    
+ margin: 20px 20px;
+ padding:5px 5px;
+ font-family: 'Alfa Slab One', cursive;
+ font-size: 1.7rem;
+ border-radius: 10px;
+}
+
+.Logo:hover{
+
+    
+    background-color: rgb(219, 203, 203);
+    color: rgb(25, 9, 43);
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family: 'Roboto Slab', sans-serif;
+   
+   
+}
+
+.navlinks> li{
+
+ margin: 20px 20px;
+ 
+
+}
+
+.alinks{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.alinks:hover{
+    color: brown;
+}
+
+.HamuburgurMenu{
+
+    margin: 20px 20px;
+    background-color: brown;
+    box-shadow: 0px 5px 7px 0px black;
+    padding:5px 5px;
+    display: none; 
+    
+   
+
+}
+
+.Bars{
+
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    border-radius: 100px;
+}
+
+.mobilemenu{
+    margin: 20px 20px;
+    
+ 
+}
+
+.menulist{
+    justify-content: space-between;
+    list-style: none;
+    line-height: 38px;
+    display: none;
+    
+
+  
+}
+
+.mobilelinks{
+   
+   padding: 2px 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family:'Roboto Slab', sans-serif; 
+     border-radius: 50px; 
+     border:1px solid rgb(53, 5, 5);
+   
+ }
+ 
+
+@media only screen  and (max-width:450px) {
+    .Header-Container{
+        width: 100%;
+    }
+
+  .navlinks>li{
+        display: none;
+  }
+
+  .Logo{
+      font-size:2rem ;
+      background: none;
+
+      
+  }
+
+  .HamuburgurMenu{
+      display: block;
+     background:none;
+     margin-right: 2rem;
+  }
+  
+    
+} 
+
+
+

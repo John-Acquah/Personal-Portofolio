@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.linkcontainer{
+
+    text-align: center;
+    background-color: red;
+    
+
+}
+
+
+
+.follow {
+
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    margin: 8rem 0;
+    
+}
+
+.SM{
+    color: black;
+}
+
+
+/* Mobile View */
+
+@media only screen  and (max-width:450px){
+
+    .linkcontainer{
+
+       margin-top: 39rem;
+       margin-left: 6.5rem;
+       
+    } 
+    .SM{
+        padding-left: 0.3rem;
+    }
+
+}
+
+
+@media only screen  and (max-width:1040px){
+
+.follow{
+    margin: 10rem 0;
+}
+
+}
+

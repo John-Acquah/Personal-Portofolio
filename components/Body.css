@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Body_Main{
+
+    margin: 20px auto;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+
+    
+}
+
+.layer1{
+    width:30% ;
+    /* background-color: red; */
+}
+
+.profilepic{
+   width: 30%;
+   /* background-color: blue; */
+   text-align: center;
+   
+}
+
+.profilepic >img{
+
+width: 60%;
+border-radius: 50%;
+box-shadow:  0 4px 14px 0 rgba(14, 3, 3, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 5%;
+
+  
+}
+
+.profilepic >img :hover{
+
+   transform: rotate(50px);
+}
+
+
+ @keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+
+    } 
+
+
+.Logo1{
+
+    /* background-color: rgb(233, 13, 13); */
+    /*  */
+    padding:5px 4px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 4rem;
+    text-shadow: 2px 2px grey;
+    
+
+}
+
+.Name{
+    display: flex;
+    padding:0 5em;
+  
+}
+
+
+.star{
+    display: flex;
+    color: gold;
+    margin:0 10rem;
+}
+
+
+
+
+.Layer3{
+    width: 30%;
+    /* background-color: yellow; */
+    padding: 7rem 0;
+
+    
+}
+
+.Name{
+    padding:0 0;
+}
+.Fname{
+
+    margin: 1rem 8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 1px  black;
+}
+
+
+.Title{
+
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px brown;
+    display: flex; 
+   
+}
+
+.bar_extension{
+
+    width: 20%;
+    height: 2px;
+    color: brown;
+    background-color: brown;
+    margin: 10px 10px;
+}
+
+
+
+.Title_description{
+
+    font-family: poppins;
+    padding: 1em 0;
+
+}
+.Title_description>h2{
+
+    font-size: 2.3rem;
+    padding: 0.3em;
+}
+
+.Phone{
+
+    display: flex;
+    font-family: poppins;
+    
+   
+}
+
+.PhoneIcon{
+
+    color: brown;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.MailIcon{
+    color: brown;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+.email{
+    display: flex;
+    font-family: poppins;
+    
+  
+}
+
+.Read_More{
+    background-color: brown;
+    color: whitesmoke;
+   
+    padding: 10px 15px;
+    margin: 1em 10em;
+    border-radius: 12px;
+ 
+    
+  
+}
+
+.More{
+
+    margin: 3.5em 4.5em;
+}
+
+.more{
+    background-color: brown;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    box-shadow: 0px 5px 7px 0px black;
+    color: white;
+    width: 27%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.layer1{
+
+padding-top: 31rem;
+padding-left: 5rem;
+display: flex;
+}
+
+
+.years{
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    padding: 10px 15px;
+
+}
+
+.exper{
+
+    padding: 2rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+/* Mobile View */
+
+@media only screen  and (max-width:450px){
+    .Body_Main{
+        width: 94%;
+        display: block;
+        margin: -1rem 1.3rem;
+        
+    }
+
+    .layer1{
+        margin-top: 0px;
+        position: relative;
+    }
+    .profilepic{
+        position: absolute;
+        margin-top: -35rem;
+        justify-content: center;
+    }
+
+    .profilepic >img{
+        width: 150%;
+        margin: 0px 5.5rem;
+    }
+    .Logo1{
+        display: none;
+    }
+    
+
+    .Fname{
+        font-size: 1rem;
+        margin: -1rem 8rem;
+        padding:  auto;
+        width: 100%;
+        
+     
+    }
+
+    
+.star{
+    
+    margin:1rem 8rem;
+    
+}
+
+.Layer3{
+    position: absolute;
+    margin: -16rem 4rem;
+    padding: 0 0;
+    width: 90%;
+}
+
+.years{
+   display: none;
+   
+}
+
+.Title_description>h2{
+    font-size: 1.3rem;
+  
+}
+
+
+.Title_description>p{
+    margin-right: 7rem;
+    font-size: 1rem;
+}
+
+
+.Phone{
+    font-size: 1rem;
+    padding: 0 0;
+}
+.PhoneIcon{
+    padding: 0 0.5rem;
+}
+.MailIcon{
+    padding: 0 0.4rem;
+}
+.email{
+    font-size: 0.8rem;
+    margin-right: 2rem;
+
+}
+
+.More{
+ margin: 2em 3em;
+}
+
+.more{
+    padding: 0.5rem 0.5rem;
+}
+
+
+}
+
+
+
+
+/* Tablet View */
+@media only screen  and (max-width:1040px){
+    .profilepic >img{
+        /* width: 80%; */
+        margin: 2rem 5.5rem;
+    }
+
+    .Name{
+        padding:0 0;
+    }
+
+    .Fname{
+        font-size: 1rem;
+        margin: 1rem 10rem;
+        padding:  auto;
+        width: 100%;
+    }
+
+    .profilepic{
+        margin-right: 2rem;
+    }
+
+    .profilepic >img{
+
+        margin-right: 3rem;
+    }
+
+}
